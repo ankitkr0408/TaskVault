@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-    width: 80%; /* Adjusted width for responsiveness */
-    max-width: 600px; /* Limiting max-width for larger screens */
+    width: 80%; 
+    max-width: 600px; 
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -24,7 +24,7 @@ h1 {
 
 form {
     display: flex;
-    flex-wrap: wrap; /* Allow form elements to wrap */
+    flex-wrap: wrap; 
     gap: 10px;
     margin-bottom: 15px;
 }
@@ -54,23 +54,23 @@ form button:hover {
 ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 li {
     padding: 10px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    margin-bottom: 10px; /* Increased margin between tasks */
+    margin-bottom: 10px; 
     border-radius: 4px;
     display: flex;
-    justify-content: space-between; /* Align delete button to the right */
+    justify-content: space-between;
     align-items: center;
 }
 
 .task-details {
-    flex: 1; /* Allow task details to take remaining space */
-    margin-right: 10px; /* Margin between task content and delete button */
+    flex: 1; 
+    margin-right: 10px; 
 }
 
 .priority-low { color: #5cb85c; }
